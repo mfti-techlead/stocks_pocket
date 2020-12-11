@@ -8,14 +8,14 @@
 
 # Настройка окружения
 
-## 1. Открыить проектную папку в VS Code
+### 1. Открыть проектную папку в VS Code
 
-## 2. В VS Code открыть Command Palette `(View > Command Palette or (Ctrl+Shift+P))`
+### 2. В VS Code открыть Command Palette `(View > Command Palette or (Ctrl+Shift+P))`
 
 Затем выбрать: `Python: Select Interpreter`  
 Затем выбрать: `Python 3.8`  
 
-## 3. Открыть терминал: `Create New Integrated Terminal (Ctrl+`))`  
+### 3. Открыть терминал: `Create New Integrated Terminal (Ctrl+`))`  
 
 ``` 
 python -m venv env
