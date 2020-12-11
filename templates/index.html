@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Portfolio request form</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+<link rel="icon" href="{{ url_for('static', filename='img/icon.gif') }}">
+</head>
+<body>
+<h1>Enter ticker name</h1>
+  <form action="/portfolio_info" method="POST" class="form-style-4">
+      <div class="form-group">
+          <input type="text" name="name" placeholder="Please enter ticker name" />
+          <input type="submit" value="Submit" />
+      </div>
+  </form>
+</body>
+</html>
